@@ -38,6 +38,7 @@ public class setup {
 	public void fnLaunch()
 	{
 		driver.get("http://demo.guru99.com/v4/index.php");
+		System.out.println("sample");
 	}
 	
 	@AfterTest
