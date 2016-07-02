@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Firefox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testscripts.verifyHomePageTitle">
+        <methods>
+          <include name="fnverifyhomepage"/>
+          <include name="fnLaunch"/>
+          <include name="fnLaunch"/>
+        </methods>
+      </class> <!-- testscripts.verifyHomePageTitle -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testscripts.verifyHomePageTitle">
+        <methods>
+          <include name="fnverifyhomepage"/>
+          <include name="fnLaunch"/>
+          <include name="fnLaunch"/>
+        </methods>
+      </class> <!-- testscripts.verifyHomePageTitle -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

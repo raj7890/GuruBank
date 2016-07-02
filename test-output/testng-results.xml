@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="18699" started-at="2016-07-02T12:17:19Z" finished-at="2016-07-02T12:17:38Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="9503" started-at="2016-07-02T12:17:19Z" finished-at="2016-07-02T12:17:29Z">
+      <class name="testscripts.verifyHomePageTitle">
+        <test-method status="PASS" signature="browsersetup(java.lang.String)[pri:0, instance:testscripts.verifyHomePageTitle@17d99928]" name="browsersetup" is-config="true" duration-ms="7737" started-at="2016-07-02T17:47:19Z" finished-at="2016-07-02T17:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="PASS" signature="fnverifyhomepage()[pri:0, instance:testscripts.verifyHomePageTitle@17d99928]" name="fnverifyhomepage" duration-ms="1566" started-at="2016-07-02T17:47:27Z" finished-at="2016-07-02T17:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnverifyhomepage -->
+        <test-method status="PASS" signature="fnCloseBrowsers()[pri:0, instance:testscripts.verifyHomePageTitle@17d99928]" name="fnCloseBrowsers" is-config="true" duration-ms="176" started-at="2016-07-02T17:47:29Z" finished-at="2016-07-02T17:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnCloseBrowsers -->
+      </class> <!-- testscripts.verifyHomePageTitle -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="18699" started-at="2016-07-02T12:17:19Z" finished-at="2016-07-02T12:17:38Z">
+      <class name="testscripts.verifyHomePageTitle">
+        <test-method status="PASS" signature="browsersetup(java.lang.String)[pri:0, instance:testscripts.verifyHomePageTitle@47d384ee]" name="browsersetup" is-config="true" duration-ms="12060" started-at="2016-07-02T17:47:19Z" finished-at="2016-07-02T17:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="PASS" signature="fnverifyhomepage()[pri:0, instance:testscripts.verifyHomePageTitle@47d384ee]" name="fnverifyhomepage" duration-ms="5599" started-at="2016-07-02T17:47:31Z" finished-at="2016-07-02T17:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnverifyhomepage -->
+        <test-method status="PASS" signature="fnCloseBrowsers()[pri:0, instance:testscripts.verifyHomePageTitle@47d384ee]" name="fnCloseBrowsers" is-config="true" duration-ms="1032" started-at="2016-07-02T17:47:37Z" finished-at="2016-07-02T17:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnCloseBrowsers -->
+      </class> <!-- testscripts.verifyHomePageTitle -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
